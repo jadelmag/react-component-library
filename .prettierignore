@@ -1,0 +1,14 @@
+node_modules
+dist
+.storybook
+stories
+test
+rollup.config.js
+.eslintrc
+.eslintignore
+.prettierrc
+jest.config.js
+jest.setup.ts
+rollup.config.js
+yarn-error.log
+package-lock.json
