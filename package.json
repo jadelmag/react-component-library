@@ -6,10 +6,11 @@
     "type": "git",
     "url": "https://github.com/jadelmag/react-component-library"
   },
-  "version": "0.0.1",
+  "version": "0.0.52",
   "description": "React component library using Typescript",
   "scripts": {
     "build": "rimraf dist && rollup -c",
+    "release": "yarn build && yarn publish",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watchAll",

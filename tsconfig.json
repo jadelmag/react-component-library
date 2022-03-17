@@ -20,7 +20,6 @@
   ],
   "exclude": [
     "src/**/stories",
-    "src/**/tests",
-    "src/**/.scss",
+    "src/**/tests"
   ]
 }
