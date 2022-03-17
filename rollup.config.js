@@ -6,6 +6,12 @@ import dts from 'rollup-plugin-dts'
 import { terser } from 'rollup-plugin-terser'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
+// https://www.npmjs.com/package/rollup-plugin-unused
+// https://stackoverflow.com/questions/48821400/unused-external-imports-reduce-imported-from-external-module-lodash-but
+
+// https://stackoverflow.com/questions/64252283/compile-sass-files-with-rollup
+
+// https://www.learnwithjason.dev/blog/learn-rollup-css
 const packageJson = require('./package.json')
 
 export default [
